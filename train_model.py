@@ -27,6 +27,7 @@ df = df[(df["ap_hi"] >= 70) & (df["ap_hi"] <= 250)]
 df = df[(df["ap_lo"] >= 40) & (df["ap_lo"] <= 200)]
 df = df[df["ap_hi"] > df["ap_lo"]]
 print("Records after cleaning:", len(df))
+df.to_csv("cardio_cleaned.csv", index=False)
 
 X = df[FEATURES]
 y = df["cardio"]
