@@ -47,6 +47,6 @@ jobs:
           path: |
             cardio_model_missing.pkl
             metrics.json
-            cardio_cleaned.csv
+            cardio_cleaned_missing.csv
           if-no-files-found: error
           retention-days: 7
