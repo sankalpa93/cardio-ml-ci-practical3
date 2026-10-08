@@ -46,7 +46,7 @@ jobs:
           name: cardio-ml-artifacts
           path: |
             cardio_model_missing.pkl
-            metrics.json
+            metrics_missing.json
             cardio_cleaned_missing.csv
           if-no-files-found: error
           retention-days: 7
