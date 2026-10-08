@@ -45,7 +45,7 @@ jobs:
         with:
           name: cardio-ml-artifacts
           path: |
-            cardio_model.pkl
+            cardio_model_missing.pkl
             metrics.json
             cardio_cleaned.csv
           if-no-files-found: error
